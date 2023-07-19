@@ -1,0 +1,63 @@
+$font-family-sans-serif: 'League Spartan', sans-serif;
+
+$primary:  hsl(180, 29%, 50%);
+$light:  hsl(180, 31%, 95%);
+
+@import "../PricingCard/node_modules/bootstrap/scss/bootstrap.scss";
+@import "../PricingCard/node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+.bgTop {
+    height: 150px;
+    background-image: url(./static-job-listings-master/images/bg-header-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.border-left {
+    border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+h5:hover {
+    color: hsl(180, 29%, 50%);
+}
+
+.btn-light:hover {
+    --bs-btn-hover-bg: hsl(180, 29%, 50%);
+    --bs-btn-hover-color: white;
+}
+
+.text-success:hover {
+    color: white !important;
+}
+
+.loadingAnimation {
+    animation: popup 0.5s linear forwards;
+}
+
+@keyframes popup {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(5%);
+    }
+    60% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #images {
+        margin-top: -50px;
+
+        .mainImgs {
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+}

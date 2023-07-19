@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Lists</title>
+    <link rel="stylesheet" href="./app.css">
+
+    <style>
+
+        body {
+            background-color:  hsl(180, 52%, 96%);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header class="mb-3">
+        <div class="bgTop bg-primary"></div>
+    </header>
+
+    <main class="main">
+        <section>
+            <div class="container my-5">
+
+                <div class="searchBox mb-4">
+                    <input type="text" placeholder="Search your position..." class="form-control px-4 py-2">
+                </div>
+
+                <div data-role="senior, frontend, developer" data-skills="frontend, senior, html, css, javascript" class="row border-left shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#">
+                            <img class="mainImgs" src="./static-job-listings-master/images/photosnap.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Photosnap</small>
+                                <span class="badge pt-2 text-white text-bg-primary rounded-pill text-uppercase">New!</span>
+                                <span class="badge pt-2 text-white text-bg-dark rounded-pill text-uppercase">Featured</span>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Senior Frontend Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">1d ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">USA only</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success" data-skill="frontend">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success" data-skill="senior">Senior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success" data-skill="html">HTML</a>
+                            <a href="#" class="btn btn-light pt-2 text-success" data-skill="css">CSS</a>
+                            <a href="#" class="btn btn-light pt-2 text-success" data-skill="javascript">JavaScript</a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div data-role="fullstack, developer" data-skills="fullstack, midweight, python, react" class="row border-left shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#">
+                            <img class="mainImgs" src="./static-job-listings-master/images/manage.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Manage</small>
+                                <span class="badge pt-2 text-white text-bg-primary rounded-pill text-uppercase">New!</span>
+                                <span class="badge pt-2 text-white text-bg-dark rounded-pill text-uppercase">Featured</span>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Fullstack Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">1d ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Part Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Remote</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Fullstack</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Midweight</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Python</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">React</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="junior, frontend, developer" data-skills="frontend, junior, javascript, react, sass" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/account.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Account</small>
+                                <span class="badge pt-2 text-white text-bg-primary rounded-pill text-uppercase">New!</span>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Junior Frontend Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">2d ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Part Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">USA only</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">React</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Sass</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="junior, frontend, developer" data-skills="frontend, junior, css, javascript" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/myhome.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">MyHome</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Junior Frontend Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">5d ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Contract</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">USA only</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">CSS</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="Software, engineer" data-skills="fullstack, midweight, javascript, ruby, sass" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/loop-studios.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Loop Studios</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Software Engineer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">1w ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Worldwide</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Fullstack</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Midweight</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Ruby</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Sass</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="junior, backend, developer" data-skills="backend, junior, ruby, ror" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/faceit.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">FaceIt</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Junior Backend Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">2w ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">UK only</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Backend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Ruby</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">RoR</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="junior, developer" data-skills="frontend, junior, html, javascript, sass" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/shortly.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Shortly</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Junior Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">2w ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Worldwide</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">HTML</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Sass</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="junior, frontend, developer" data-skills="frontend, junior, javascript, vue, sass" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/insure.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Insure</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Junior Frontend Developer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">2w ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">USA only</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Vue</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Sass</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="fullstack, engineer" data-skills="fullstack, midweight, javascript, python, django" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/eyecam-co.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">Eyecam Co.</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Full Stack Engineer</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">3w ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Full Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Worldwide</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Fullstack</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Midweight</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Python</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Django</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-role="frontend, dev" data-skills="frontend, junior, javascript, react, sass" class="row shadow-sm mt-5 mt-lg-4 mx-2 mx-lg-0 py-4 px-2 px-lg-4 bg-white rounded-3 align-items-center listBox">
+                    <div class="col-10 col-lg-2" style="width: max-content;" id="images">
+                        <a href="#" class="ms-1">
+                            <img class="mainImgs" src="./static-job-listings-master/images/the-air-filter-company.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10 col-lg-4 me-auto d-flex gap-4 py-3 py-lg-0">        
+                        <div class="">
+                            <div class="d-flex gap-2 align-items-center">
+                                <small class="text-primary fw-bold fs-6">The Air Filter Company</small>
+                            </div>
+                            <a href="#" class="text-decoration-none text-dark">
+                                <h5 class="fw-bold my-2">Front-end Dev</h5>
+                            </a>
+                            <div class="d-flex gap-3 align-items-center">
+                                <small class="text-muted">1mo ago</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Part Time</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">Worldwide</small>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none">
+                    <div class="col-10 col-lg-6">
+                        <div class="justify-content-start justify-content-lg-end gap-2 d-flex flex-wrap">
+                            <a href="#" class="btn btn-light pt-2 text-success">Frontend</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Junior</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">JavaScript</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">React</a>
+                            <a href="#" class="btn btn-light pt-2 text-success">Sass</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+    <script src="../PricingCard/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
